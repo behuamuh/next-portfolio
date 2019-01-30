@@ -11,10 +11,6 @@ export default ({ children, title }) => (
   <div className="root">
     <Head>
       <title>NextPorfolio</title>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
-      />
     </Head>
     <header>
       <Link href="/">
@@ -63,14 +59,5 @@ export default ({ children, title }) => (
         padding: 1em;
       }
     `}</style>
-    <style global jsx>
-      {`
-        body {
-          margin: 0;
-          font-size: 110%;
-          background: #f0f0f0;
-        }
-      `}
-    </style>
   </div>
 );
